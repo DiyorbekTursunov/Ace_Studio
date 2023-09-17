@@ -9,7 +9,7 @@ const Navbar = () => {
             {<MenuBar setisOpen={setisOpen} isOpen={isOpen} />}
             <nav className="lg:text-[16px] md:text-[14px] flex items-center justify-between py-[27px]">
                 <a href='/' className="hover:opacity-70 active:opacity-50">
-                    <img src={siteLogo} alt="" className='lg:w-[119px] max-md:w-[112px] ' width={119} />
+                    <img src={siteLogo} alt="" className='lg:w-[139px] max-md:w-[112px] ' width={119} />
                 </a>
                 <div className='flex items-center gap-5'>
                     <ul className='flex lg:gap-4 md:gap-2 max-md:hidden'>
