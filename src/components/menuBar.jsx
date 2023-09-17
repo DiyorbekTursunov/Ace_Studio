@@ -17,44 +17,54 @@ const MenuBar = ({ setisOpen, isOpen }) => {
       </div>
       <ul className='flex flex-col lg:gap-[40px] max-md:gap-2 mb-[42px]'>
         <li className='hover:opacity-70 active:opacity-50'>
-          <a href="#">Home</a>
+          <a href="/">Home</a>
         </li>
         <li className='hover:opacity-70 active:opacity-50'>
-          <a href="#">Works</a>
+          <a href="/s">Works</a>
         </li>
         <li className='hover:opacity-70 active:opacity-50'>
-          <a href="#">About us</a>
+          <a href="/s">About us</a>
         </li>
         <li className='hover:opacity-70 active:opacity-50'>
-          <a href="#">Contact us</a>
+          <a href="/s">Contact us</a>
         </li>
         <li className='hover:opacity-70 active:opacity-50'>
-          <a href="#">Service</a>
+          <a href="/s">Service</a>
         </li>
         <li className='hover:opacity-70 active:opacity-50'>
-          <a href="#">Blogs</a>
+          <a href="/s">Blogs</a>
         </li>
         <li className='hover:opacity-70 active:opacity-50'>
-          <a href="#">Terms & Conditions</a>
+          <a href="/s">Terms & Conditions</a>
         </li>
       </ul>
       <div>
         <span className='text-[14px]'>Follow us on</span>
         <ul className='flex gap-[20px] mt-[25px]'>
           <li className='bg-[#d2d8ff] rounded-[20px] p-[12px]'>
-            <img src={instagram} alt="" />
+            <a href="#" target='_blank'>
+              <img src={instagram} alt="" />
+            </a>
           </li>
           <li className='bg-[#d2d8ff] rounded-[20px] p-[12px]'>
-            <img src={facebook} alt="" />
+            <a href="#" target='_blank'>
+              <img src={facebook} alt="" />
+            </a>
           </li>
           <li className='bg-[#d2d8ff] rounded-[20px] p-[12px]'>
-            <img src={linkedin} alt="" />
+            <a href="#" target='_blank'>
+              <img src={linkedin} alt="" />
+            </a>
           </li>
           <li className='bg-[#d2d8ff] rounded-[20px] p-[12px]'>
-            <img src={twitter} alt="" />
+            <a href="#" target='_blank'>
+              <img src={twitter} alt="" />
+            </a>
           </li>
           <li className='bg-[#d2d8ff] rounded-[20px] p-[12px]'>
-            <img src={youtube} alt="" />
+            <a href="#" target='_blank'>
+              <img src={youtube} alt="" />
+            </a>
           </li>
         </ul>
       </div>
