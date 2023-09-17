@@ -8,6 +8,7 @@ export default {
     extend: {},
     colors: {
       'black': '#000',
+      'white':'#fff',
       'blue': '#6854FC',
       'lightBlue':'#BED3FF',
       '2xlLightBlue':'#F0EEFF',
@@ -17,7 +18,8 @@ export default {
       'lightYellow':'#FFEEA6',
       'lightBrown':'#FCEDEE',
       'lightGreen':'#DEFEEA',
-      'FooterColor':'#0A142F'
+      'FooterColor':'#0A142F',
+      'MainBackground':'#F9F9FB',
     }
   },
   plugins: [],
