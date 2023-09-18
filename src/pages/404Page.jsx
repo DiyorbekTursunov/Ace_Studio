@@ -17,7 +17,7 @@ const NotFound = () => {
 
     return (
         <div className='max-w-[1258px] mx-auto px-3 flex flex-col items-center mt-[48px] mb-[124px]'>
-            <img src={NotFoundImg} alt="" className='w-[722px] md:mb-[87px] sm:mb-[67px] max-sm:mb-[57px]' />
+            <img src={NotFoundImg} alt="Not Found" className='w-[722px] md:mb-[87px] sm:mb-[67px] max-sm:mb-[57px]' />
             <div className='text-center'>
                 <h3 className='text-[48px] font-semibold md:mb-[29px] sm:mb-[19px] max-sm:mb-[19px]'>Oops!</h3>
                 <p className='text-[28px] text-[#00000080] md:mb-[56px] sm:mb-[46px] max-sm:mb-[46px]'>We can’t seem to find the page you are looking for</p>
@@ -28,27 +28,27 @@ const NotFound = () => {
                 <ul className='flex w-full justify-center gap-[20px] mt-[25px]'>
                     <li className='bg-[#d2d8ff] rounded-[20px] p-[12px]'>
                         <a href="#" target='_blank'>
-                            <img src={instagram} alt="" />
+                            <img src={instagram} alt="instagramLogo" />
                         </a>
                     </li>
                     <li className='bg-[#d2d8ff] rounded-[20px] p-[12px]'>
                         <a href="#" target='_blank'>
-                            <img src={facebook} alt="" />
+                            <img src={facebook} alt="facebookLogo" />
                         </a>
                     </li>
                     <li className='bg-[#d2d8ff] rounded-[20px] p-[12px]'>
                         <a href="#" target='_blank'>
-                            <img src={linkedin} alt="" />
+                            <img src={linkedin} alt="linkedinLogo" />
                         </a>
                     </li>
                     <li className='bg-[#d2d8ff] rounded-[20px] p-[12px]'>
                         <a href="#" target='_blank'>
-                            <img src={twitter} alt="" />
+                            <img src={twitter} alt="twitterLogo" />
                         </a>
                     </li>
                     <li className='bg-[#d2d8ff] rounded-[20px] p-[12px]'>
                         <a href="#" target='_blank'>
-                            <img src={youtube} alt="" />
+                            <img src={youtube} alt="youtubeLogo" />
                         </a>
                     </li>
                 </ul>
